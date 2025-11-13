@@ -14,15 +14,15 @@ This guide will help tell you how to:
 1. Open up chrome and go to:  
    https://www.arduino.cc/en/software  
    <!-- Screenshot idea: Arduino software download page -->
-   <!-- ![Arduino software page](images/arduino_software_page.png) -->
+   ![Arduino software page](images/ar1.png) 
 
-2. Under **“Arduino IDE 2.x”**, look for **Version 2.3.6**.
+3. Under **“Arduino IDE 2.x”**, look for **Version 2.3.6**.
 
-3. Choose the correct download for your operating system:
+4. Choose the correct download for your operating system:
    - **Windows** → usually “Windows Installer”
    - **macOS** → “Mac OS X 10.14: ARM / Intel” (choose the chip that matches your Mac)
 
-4. Download the installer / DMG file.
+5. Download the installer / DMG file.
 
 ---
 
