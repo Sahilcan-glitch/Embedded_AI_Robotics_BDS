@@ -77,7 +77,7 @@ This guide will help tell you how to:
    - Go to **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** for Arduino IDE.
 
 4. Arduino IDE 2.3.6 should now launch.
-   <!-- ![Arduino IDE first launch - macOS](images/ide_first_launch_macos.png) -->
+   ![Arduino IDE first launch - macOS](images/ar2.png) 
 
 ---
 
@@ -89,7 +89,7 @@ You can do this on **Windows or macOS**. The steps are very similar.
 
 1. Connect your **Arduino Uno/Nano** to the computer using a USB cable.
 2. The **power LED** on the board should turn on.
-   <!-- ![Arduino connected via USB](images/arduino_usb_connected.png) -->
+   !-- ![Arduino connected via USB](images/ar3.png) -->
 
 ---
 
@@ -111,7 +111,7 @@ If you don’t see it:
 ### 4.3 Select the Port
 
 This tells Arduino IDE which USB connection is your board.
-
+ !-- ![Arduino connected via USB](images/ar4.png)
 #### On Windows
 
 1. In Arduino IDE, either:
@@ -146,19 +146,23 @@ This tells Arduino IDE which USB connection is your board.
 ## 5. Testing with the Blink Example
 
 Now we test if everything is working by blinking the built-in LED.
+ ```
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
 
-### 5.1 Open the Blink Example
-
-1. In Arduino IDE, go to:  
-   **File → Examples → 01.Basics → Blink**
-   <!-- ![Blink example menu](images/open_blink_example.png) -->
-
-2. A new sketch/tab will open with the Blink code.
-
-### 5.2 Verify the Sketch
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(1000);                      // wait for a second
+}
+```
 
 1. Click the **✔ Verify** button (top-left in the toolbar).
-   <!-- ![Verify button](images/verify_button.png) -->
+   !-- ![Verify button](images/ar6.png) --
 
 2. Wait for the output at the bottom to say something like:
    > *“Compilation complete”*  
@@ -176,7 +180,7 @@ Now we test if everything is working by blinking the built-in LED.
    - **Port** is selected (COMx on Windows, `/dev/cu.*` on macOS)
 
 2. Click the **→ Upload** button (right of Verify).
-   <!-- ![Upload button](images/upload_button.png) -->
+   !-- ![Upload button](images/ar7.png) -->
 
 3. The bottom status area will say:
    - *Compiling...*
@@ -189,13 +193,3 @@ Now we test if everything is working by blinking the built-in LED.
 If it’s blinking – 🎉 congratulations, your setup works!
 
 ---
-
-## 6. Switching to the Class Demo Sketch
-
-For the **in-class activities**, you can use a single sketch that includes multiple modes.
-
-1. Open the sketch file your instructor gave you (e.g. `week01_class_demo.ino`).
-2. At the top of the file you will see:
-
-   ```cpp
-   const int mode = 1;   // <-- CHANGE THIS: 1, 2, or 3
