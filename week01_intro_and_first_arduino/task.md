@@ -1,4 +1,4 @@
-# Week 1 – Tasks (Submit by: DD/MM)
+# Week 1 – Tasks (Submit by: 20/nov)
 
 ## Task 1 – Custom Blink Pattern
 
