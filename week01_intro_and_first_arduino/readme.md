@@ -110,6 +110,4 @@ After you complete the guided steps above, open [`tasks.md`](./tasks.md) and do 
 
 1. Custom Blink pattern  
 2. Two buttons, two LEDs  
-3. Short reflection on microcontrollers and ground
 
-These will be your Week 1 submission.
