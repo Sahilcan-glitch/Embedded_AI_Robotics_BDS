@@ -1,9 +1,9 @@
 # Week 1 – In-Class Activities Submission
 
-Please fill in this template **as a group** and email it to:
+Please fill in this template **as a group** by one person from the group and email it to me:
 
-> 📧 sahil.[your-email-here]@example.com  
-> Subject: **[Week 1 Submission] – Group <Group Name>**
+> 📧 sahil.af24syd002@spjain.org 
+> Subject: ** Em_Ai_week1 – Group <Group Name>**
 
 ---
 
