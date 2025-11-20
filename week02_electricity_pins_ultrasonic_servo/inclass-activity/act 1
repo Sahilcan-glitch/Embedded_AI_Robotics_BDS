@@ -20,7 +20,7 @@ Each section is a separate mini-activity – you don’t need all of them wired 
 - Arduino **pin 9** → **220Ω resistor** → LED **long leg** (anode)  
 - LED **short leg** (cathode) → **GND**
 
-Check:
+Check:t
 
 - There is **exactly one resistor in series** with the LED.
 - GND from the LED returns to Arduino GND.
