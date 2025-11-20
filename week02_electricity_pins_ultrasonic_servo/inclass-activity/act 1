@@ -17,7 +17,7 @@ Each section is a separate mini-activity – you don’t need all of them wired 
 
 ### 1.2 Wiring (LED + Resistor on PWM Pin)
 
-- Arduino **pin 9** → **220Ω resistor** → LED **long leg** (anode)  
+- Arduino **pin 9** → **220Ω resistor** → LED **long leg** (anode)
 - LED **short leg** (cathode) → **GND**
 
 Check:
