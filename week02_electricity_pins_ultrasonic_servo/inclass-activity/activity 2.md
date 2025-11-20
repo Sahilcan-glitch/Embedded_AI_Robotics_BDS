@@ -46,7 +46,7 @@ Look at your servo cable:
 
 Your final wiring should be:
 
-```text
+text
 Servo Red    → 5V
 Servo Brown  → GND
 Servo Signal → D3
