@@ -66,16 +66,9 @@ Students need:
 
 ---
 
-## 3. Repository Structure
 
-Minimal structure:
 
-```text
-cloud_flask_class_server/
-├─ app.py
-└─ requirements.txt
-
-## 7. Step-by-Step: Deploy to Render
+## 3. Step-by-Step: Deploy to Render
 
 Why Render?
 It gives you a public HTTPS URL so students anywhere (home, lab, Colab, IoT devices) can send data.
