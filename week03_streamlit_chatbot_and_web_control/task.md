@@ -1,5 +1,5 @@
 
-# Week 3 – Tasks (Submit by: TBA)
+# Week 3 – Tasks (Submit by: 1 jan)
 
 All work is **group-based**.
 
