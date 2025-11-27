@@ -1,4 +1,4 @@
-# **Final Projects – Embedded AI & Robotics (BDS)**
+# **Projects – Embedded AI & Robotics (BDS)**
 
 Each group will build **one end-to-end project** that connects:
 
