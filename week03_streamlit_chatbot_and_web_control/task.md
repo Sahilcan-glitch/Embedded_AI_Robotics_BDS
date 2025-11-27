@@ -1,10 +1,4 @@
 
----
-
-### `tasks.md`
-
-
-```markdown
 # Week 3 – Tasks (Submit by: TBA)
 
 All work is **group-based**.
