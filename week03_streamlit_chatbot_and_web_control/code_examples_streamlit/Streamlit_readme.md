@@ -114,37 +114,73 @@ You now have an empty repo page.
 ##Scroll down and click “Commit new file”.
 
 ##4. Add requirements.txt via GitHub Web Editor
+
 Back on the repo page, click “Add file” → “Create new file”.
+
 File name: requirements.txt
+
 Paste:
+
 streamlit
+
 openai
+
 ##Click “Commit new file”.
+
 Your repo now has at least:
+
 app.py
+
 requirements.txt
+
 ##5. Deploy on Streamlit Community Cloud
+
 Go to: https://streamlit.io/cloud
+
 Log in with GitHub.
+
 Click “New app”.
+
 Under “Select a repo”, choose your repo:
+
 Repo: your-username/week03_streamlit_chatbot
+
 Branch: main (or master, whatever GitHub shows)
+
 Main file: app.py
+
 Click “Deploy”.
+
 Streamlit Cloud will:
+
 Install packages from requirements.txt
+
 Run app.py
+
 Open a URL like: https://week03_streamlit_chatbot-yourname.streamlit.app
+
 You will see an error about OPENAI_API_KEY (expected). Now we fix it.
+
 ##6. Add the OpenAI API Key in Streamlit Settings → Secrets
+
 In your deployed Streamlit app, click the “⋮” (three dots) in the top-right.
+
 Click “Settings” → then “Secrets”
+
 (or from the app dashboard: “Manage app” → “Secrets”).
+
 In the Secrets editor, add this line:
-OPENAI_API_KEY = "sk-...your-real-key-here..."
+
+OPENAI_API_KEY = "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"
+
 Click “Save”.
+
 The app will automatically restart.
+
 Now:
+
 st.secrets["OPENAI_API_KEY"] is available inside app.py.
+
 Your chatbot should start responding.
+
+
