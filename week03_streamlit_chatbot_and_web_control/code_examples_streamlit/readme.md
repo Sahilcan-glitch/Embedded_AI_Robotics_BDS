@@ -109,7 +109,8 @@ You now have an empty repo page.
                st.markdown(reply)
 
        # Save assistant reply
-       st.session_state["messages"].append({"role": "assistant", "content": reply})```
+       st.session_state["messages"].append({"role": "assistant", "content": reply})
+   ```
 
 ## Scroll down and click “Commit new file”.
 
