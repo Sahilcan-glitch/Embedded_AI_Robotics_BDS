@@ -71,21 +71,39 @@ Students need:
 ## 3. Step-by-Step: Deploy to Render
 
 Why Render?
+
 It gives you a public HTTPS URL so students anywhere (home, lab, Colab, IoT devices) can send data.
+
 Go to: https://render.com
+
 Log in with GitHub.
+
 Click New → Web Service.
+
 Choose the cloud_flask_class_server repository.
+
 Set the service settings:
+
 Build Command:
+
 pip install -r requirements.txt
+
 Tells Render how to install dependencies.
+
 Start Command:
+
 gunicorn app:app
+
 gunicorn is a production WSGI server that runs your Flask app.
+
 Environment: Python 3
+
 Instance Type: Free
+
 Click Create Web Service and wait for the deployment to finish.
+
 Render will give you a URL like:
+
+
 https://cloud-flask-class-server.onrender.com
 This is your BASE_URL.
